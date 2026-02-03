@@ -1,0 +1,63 @@
+{
+  "name": "Schedule C tax organizer for Uber drivers",
+  "final_state": "Kll",
+  "metrics": {
+    "mrr": 0,
+    "payback_days": 999,
+    "margin": 0,
+    "churn_rate": 0,
+    "retention_rate": 0,
+    "total_days": 0
+  },
+  "log": [
+    {
+      "timestamp": "2026-02-03T15:15:34.413265",
+      "state": "Dsc",
+      "event": "START",
+      "message": "Initiating venture: Schedule C tax organizer for Uber drivers",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:15:34.413332",
+      "state": "Dsc",
+      "event": "DISCOVER",
+      "message": "Starting research",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:15:44.041536",
+      "state": "Dsc",
+      "event": "DISCOVER_COMPLETE",
+      "message": "Score: 56.5",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:15:44.041592",
+      "state": "Dsc",
+      "event": "KILL",
+      "message": "Reason: low_validation_score",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    }
+  ],
+  "success": false
+}
