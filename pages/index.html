@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVS Ventures</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #0a0a0a;
+            color: #e0e0e0;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid #333;
+            margin-bottom: 40px;
+        }
+        h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .ventures {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+        .venture-card {
+            background: #1a1a1a;
+            padding: 24px;
+            border-radius: 8px;
+            border: 1px solid #333;
+            text-decoration: none;
+            color: inherit;
+            transition: border-color 0.2s;
+        }
+        .venture-card:hover {
+            border-color: #666;
+        }
+        .venture-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 16px;
+        }
+        h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .state {
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .state-scl { background: #10b981; }
+        .state-kll { background: #ef4444; }
+        .venture-metrics {
+            display: flex;
+            gap: 16px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>AVS Ventures</h1>
+        <p>Autonomous venture creation and validation system</p>
+    </div>
+    
+    <div class="ventures">
+        
+        <a href="ai-powered-email-automation-for-smbs.html" class="venture-card">
+            <div class="venture-header">
+                <h3>AI-powered email automation for SMBs</h3>
+                <span class="state state-kll">Kll</span>
+            </div>
+            <div class="venture-metrics">
+                <span>MRR: $545</span>
+                <span>Margin: 85%</span>
+                <span>Day 30</span>
+            </div>
+        </a>
+
+    </div>
+</body>
+</html>
