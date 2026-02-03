@@ -4,14 +4,14 @@
   "metrics": {
     "mrr": 0,
     "payback_days": 999,
-    "margin": 0,
-    "churn_rate": 0,
-    "retention_rate": 0,
-    "total_days": 0
+    "margin": 0.85,
+    "churn_rate": 0.05,
+    "retention_rate": 0.95,
+    "total_days": 14
   },
   "log": [
     {
-      "timestamp": "2026-02-03T15:22:26.317235",
+      "timestamp": "2026-02-03T15:28:10.435382",
       "state": "Dsc",
       "event": "START",
       "message": "Initiating venture: Schedule C tax organizer for Uber drivers",
@@ -23,7 +23,7 @@
       }
     },
     {
-      "timestamp": "2026-02-03T15:22:26.317300",
+      "timestamp": "2026-02-03T15:28:10.435447",
       "state": "Dsc",
       "event": "DISCOVER",
       "message": "Starting research",
@@ -35,10 +35,10 @@
       }
     },
     {
-      "timestamp": "2026-02-03T15:22:36.894704",
+      "timestamp": "2026-02-03T15:28:20.483163",
       "state": "Dsc",
       "event": "DISCOVER_COMPLETE",
-      "message": "Score: 55.0",
+      "message": "Score: 58.0",
       "metrics": {
         "mrr": 0,
         "days": 0,
@@ -47,15 +47,63 @@
       }
     },
     {
-      "timestamp": "2026-02-03T15:22:36.894741",
-      "state": "Dsc",
-      "event": "KILL",
-      "message": "Reason: low_validation_score",
+      "timestamp": "2026-02-03T15:28:20.483246",
+      "state": "Val",
+      "event": "VALIDATE",
+      "message": "Scoring opportunity",
       "metrics": {
         "mrr": 0,
         "days": 0,
         "margin": 0,
         "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:28:20.483293",
+      "state": "Bld",
+      "event": "BUILD",
+      "message": "Building MVP",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:28:40.348863",
+      "state": "Lch",
+      "event": "BUILD_COMPLETE",
+      "message": "MVP ready",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:28:40.348929",
+      "state": "Lch",
+      "event": "LAUNCH",
+      "message": "Going live",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:28:40.348975",
+      "state": "Lch",
+      "event": "REVENUE_SIMULATED",
+      "message": "Day 14: MRR=$0.00, Churn=5.0%",
+      "metrics": {
+        "mrr": 0,
+        "days": 14,
+        "margin": 0.85,
+        "churn_rate": 0.05
       }
     }
   ],
