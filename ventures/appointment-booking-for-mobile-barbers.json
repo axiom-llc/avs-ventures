@@ -1,0 +1,135 @@
+{
+  "name": "Appointment booking for mobile barbers",
+  "final_state": "Kll",
+  "metrics": {
+    "mrr": 4977.87,
+    "payback_days": 999,
+    "margin": 0.85,
+    "churn_rate": 0.05,
+    "retention_rate": 0.95,
+    "total_days": 30
+  },
+  "log": [
+    {
+      "timestamp": "2026-02-03T15:41:57.194903",
+      "state": "Dsc",
+      "event": "START",
+      "message": "Initiating venture: Appointment booking for mobile barbers",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:41:57.194966",
+      "state": "Dsc",
+      "event": "DISCOVER",
+      "message": "Starting research",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:42:08.685331",
+      "state": "Dsc",
+      "event": "DISCOVER_COMPLETE",
+      "message": "Score: 65.5",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:42:08.685422",
+      "state": "Val",
+      "event": "VALIDATE",
+      "message": "Scoring opportunity",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:42:08.685480",
+      "state": "Bld",
+      "event": "BUILD",
+      "message": "Building MVP",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:42:36.975396",
+      "state": "Lch",
+      "event": "BUILD_COMPLETE",
+      "message": "MVP ready",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:42:36.975464",
+      "state": "Lch",
+      "event": "LAUNCH",
+      "message": "Going live",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:42:36.975523",
+      "state": "Lch",
+      "event": "REVENUE_SIMULATED",
+      "message": "Day 14: MRR=$2538.34, Churn=5.0%",
+      "metrics": {
+        "mrr": 2538.34,
+        "days": 14,
+        "margin": 0.85,
+        "churn_rate": 0.05
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:42:36.975576",
+      "state": "Opt",
+      "event": "OPTIMIZE",
+      "message": "Running growth tests",
+      "metrics": {
+        "mrr": 2538.34,
+        "days": 14,
+        "margin": 0.85,
+        "churn_rate": 0.05
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:43:10.542782",
+      "state": "Opt",
+      "event": "REVENUE_SIMULATED",
+      "message": "Day 30: MRR=$4977.87, Churn=5.0%",
+      "metrics": {
+        "mrr": 4977.87,
+        "days": 30,
+        "margin": 0.85,
+        "churn_rate": 0.05
+      }
+    }
+  ],
+  "success": false
+}
