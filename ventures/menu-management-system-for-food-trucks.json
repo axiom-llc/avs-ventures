@@ -1,0 +1,135 @@
+{
+  "name": "Menu management system for food trucks",
+  "final_state": "Kll",
+  "metrics": {
+    "mrr": 14757.99,
+    "payback_days": 999,
+    "margin": 0.85,
+    "churn_rate": 0.05,
+    "retention_rate": 0.95,
+    "total_days": 30
+  },
+  "log": [
+    {
+      "timestamp": "2026-02-03T15:38:38.210313",
+      "state": "Dsc",
+      "event": "START",
+      "message": "Initiating venture: Menu management system for food trucks",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:38:38.210374",
+      "state": "Dsc",
+      "event": "DISCOVER",
+      "message": "Starting research",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:38:47.756876",
+      "state": "Dsc",
+      "event": "DISCOVER_COMPLETE",
+      "message": "Score: 75.5",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:38:47.756996",
+      "state": "Val",
+      "event": "VALIDATE",
+      "message": "Scoring opportunity",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:38:47.757056",
+      "state": "Bld",
+      "event": "BUILD",
+      "message": "Building MVP",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:39:17.551795",
+      "state": "Lch",
+      "event": "BUILD_COMPLETE",
+      "message": "MVP ready",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:39:17.551890",
+      "state": "Lch",
+      "event": "LAUNCH",
+      "message": "Going live",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:39:17.551964",
+      "state": "Lch",
+      "event": "REVENUE_SIMULATED",
+      "message": "Day 14: MRR=$6376.13, Churn=5.0%",
+      "metrics": {
+        "mrr": 6376.13,
+        "days": 14,
+        "margin": 0.85,
+        "churn_rate": 0.05
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:39:17.552023",
+      "state": "Opt",
+      "event": "OPTIMIZE",
+      "message": "Running growth tests",
+      "metrics": {
+        "mrr": 6376.13,
+        "days": 14,
+        "margin": 0.85,
+        "churn_rate": 0.05
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:40:05.676982",
+      "state": "Opt",
+      "event": "REVENUE_SIMULATED",
+      "message": "Day 30: MRR=$14757.99, Churn=5.0%",
+      "metrics": {
+        "mrr": 14757.99,
+        "days": 30,
+        "margin": 0.85,
+        "churn_rate": 0.05
+      }
+    }
+  ],
+  "success": false
+}
