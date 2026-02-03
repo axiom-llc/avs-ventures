@@ -1,0 +1,63 @@
+{
+  "name": "Smart email triage for support teams",
+  "final_state": "Kll",
+  "metrics": {
+    "mrr": 0,
+    "payback_days": 999,
+    "margin": 0,
+    "churn_rate": 0,
+    "retention_rate": 0,
+    "total_days": 0
+  },
+  "log": [
+    {
+      "timestamp": "2026-02-03T15:10:59.783198",
+      "state": "Dsc",
+      "event": "START",
+      "message": "Initiating venture: Smart email triage for support teams",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:10:59.783261",
+      "state": "Dsc",
+      "event": "DISCOVER",
+      "message": "Starting research",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:11:14.528655",
+      "state": "Dsc",
+      "event": "DISCOVER_COMPLETE",
+      "message": "Score: 55.0",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:11:14.528710",
+      "state": "Dsc",
+      "event": "KILL",
+      "message": "Reason: low_validation_score",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    }
+  ],
+  "success": false
+}
