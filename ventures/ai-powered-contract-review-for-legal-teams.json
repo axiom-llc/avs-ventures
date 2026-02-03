@@ -1,0 +1,63 @@
+{
+  "name": "AI-powered contract review for legal teams",
+  "final_state": "Kll",
+  "metrics": {
+    "mrr": 0,
+    "payback_days": 999,
+    "margin": 0,
+    "churn_rate": 0,
+    "retention_rate": 0,
+    "total_days": 0
+  },
+  "log": [
+    {
+      "timestamp": "2026-02-03T11:36:29.893275",
+      "state": "Dsc",
+      "event": "START",
+      "message": "Initiating venture: AI-powered contract review for legal teams",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T11:36:29.893375",
+      "state": "Dsc",
+      "event": "DISCOVER",
+      "message": "Starting research",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T11:36:42.077403",
+      "state": "Dsc",
+      "event": "DISCOVER_COMPLETE",
+      "message": "Score: 52.0",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T11:36:42.077469",
+      "state": "Dsc",
+      "event": "KILL",
+      "message": "Reason: low_validation_score",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    }
+  ],
+  "success": false
+}
