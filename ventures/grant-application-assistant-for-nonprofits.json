@@ -1,0 +1,135 @@
+{
+  "name": "Grant application assistant for nonprofits",
+  "final_state": "Kll",
+  "metrics": {
+    "mrr": 1279.78,
+    "payback_days": 999,
+    "margin": 0.85,
+    "churn_rate": 0.05,
+    "retention_rate": 0.95,
+    "total_days": 30
+  },
+  "log": [
+    {
+      "timestamp": "2026-02-03T15:34:41.483318",
+      "state": "Dsc",
+      "event": "START",
+      "message": "Initiating venture: Grant application assistant for nonprofits",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:34:41.483385",
+      "state": "Dsc",
+      "event": "DISCOVER",
+      "message": "Starting research",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:34:51.536923",
+      "state": "Dsc",
+      "event": "DISCOVER_COMPLETE",
+      "message": "Score: 61.5",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:34:51.537027",
+      "state": "Val",
+      "event": "VALIDATE",
+      "message": "Scoring opportunity",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:34:51.537091",
+      "state": "Bld",
+      "event": "BUILD",
+      "message": "Building MVP",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:35:19.388598",
+      "state": "Lch",
+      "event": "BUILD_COMPLETE",
+      "message": "MVP ready",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:35:19.388672",
+      "state": "Lch",
+      "event": "LAUNCH",
+      "message": "Going live",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:35:19.388743",
+      "state": "Lch",
+      "event": "REVENUE_SIMULATED",
+      "message": "Day 14: MRR=$593.86, Churn=5.0%",
+      "metrics": {
+        "mrr": 593.86,
+        "days": 14,
+        "margin": 0.85,
+        "churn_rate": 0.05
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:35:19.388803",
+      "state": "Opt",
+      "event": "OPTIMIZE",
+      "message": "Running growth tests",
+      "metrics": {
+        "mrr": 593.86,
+        "days": 14,
+        "margin": 0.85,
+        "churn_rate": 0.05
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:35:55.942358",
+      "state": "Opt",
+      "event": "REVENUE_SIMULATED",
+      "message": "Day 30: MRR=$1279.78, Churn=5.0%",
+      "metrics": {
+        "mrr": 1279.78,
+        "days": 30,
+        "margin": 0.85,
+        "churn_rate": 0.05
+      }
+    }
+  ],
+  "success": false
+}
