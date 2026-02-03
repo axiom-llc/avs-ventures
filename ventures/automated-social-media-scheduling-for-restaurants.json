@@ -1,0 +1,135 @@
+{
+  "name": "Automated social media scheduling for restaurants",
+  "final_state": "Kll",
+  "metrics": {
+    "mrr": 355.26,
+    "payback_days": 999,
+    "margin": 0.85,
+    "churn_rate": 0.05,
+    "retention_rate": 0.95,
+    "total_days": 30
+  },
+  "log": [
+    {
+      "timestamp": "2026-02-03T11:37:34.024464",
+      "state": "Dsc",
+      "event": "START",
+      "message": "Initiating venture: Automated social media scheduling for restaurants",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T11:37:34.024570",
+      "state": "Dsc",
+      "event": "DISCOVER",
+      "message": "Starting research",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T11:37:43.476583",
+      "state": "Dsc",
+      "event": "DISCOVER_COMPLETE",
+      "message": "Score: 63.0",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T11:37:43.476702",
+      "state": "Val",
+      "event": "VALIDATE",
+      "message": "Scoring opportunity",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T11:37:43.476738",
+      "state": "Bld",
+      "event": "BUILD",
+      "message": "Building MVP",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T11:38:14.947979",
+      "state": "Lch",
+      "event": "BUILD_COMPLETE",
+      "message": "MVP ready",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T11:38:14.948058",
+      "state": "Lch",
+      "event": "LAUNCH",
+      "message": "Going live",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T11:38:14.948135",
+      "state": "Lch",
+      "event": "REVENUE_SIMULATED",
+      "message": "Day 14: MRR=$158.62, Churn=5.0%",
+      "metrics": {
+        "mrr": 158.62,
+        "days": 14,
+        "margin": 0.85,
+        "churn_rate": 0.05
+      }
+    },
+    {
+      "timestamp": "2026-02-03T11:38:14.948199",
+      "state": "Opt",
+      "event": "OPTIMIZE",
+      "message": "Running growth tests",
+      "metrics": {
+        "mrr": 158.62,
+        "days": 14,
+        "margin": 0.85,
+        "churn_rate": 0.05
+      }
+    },
+    {
+      "timestamp": "2026-02-03T11:39:05.760672",
+      "state": "Opt",
+      "event": "REVENUE_SIMULATED",
+      "message": "Day 30: MRR=$355.26, Churn=5.0%",
+      "metrics": {
+        "mrr": 355.26,
+        "days": 30,
+        "margin": 0.85,
+        "churn_rate": 0.05
+      }
+    }
+  ],
+  "success": false
+}
