@@ -11,7 +11,7 @@
   },
   "log": [
     {
-      "timestamp": "2026-02-03T15:15:34.413265",
+      "timestamp": "2026-02-03T15:22:26.317235",
       "state": "Dsc",
       "event": "START",
       "message": "Initiating venture: Schedule C tax organizer for Uber drivers",
@@ -23,7 +23,7 @@
       }
     },
     {
-      "timestamp": "2026-02-03T15:15:34.413332",
+      "timestamp": "2026-02-03T15:22:26.317300",
       "state": "Dsc",
       "event": "DISCOVER",
       "message": "Starting research",
@@ -35,10 +35,10 @@
       }
     },
     {
-      "timestamp": "2026-02-03T15:15:44.041536",
+      "timestamp": "2026-02-03T15:22:36.894704",
       "state": "Dsc",
       "event": "DISCOVER_COMPLETE",
-      "message": "Score: 56.5",
+      "message": "Score: 55.0",
       "metrics": {
         "mrr": 0,
         "days": 0,
@@ -47,7 +47,7 @@
       }
     },
     {
-      "timestamp": "2026-02-03T15:15:44.041592",
+      "timestamp": "2026-02-03T15:22:36.894741",
       "state": "Dsc",
       "event": "KILL",
       "message": "Reason: low_validation_score",
