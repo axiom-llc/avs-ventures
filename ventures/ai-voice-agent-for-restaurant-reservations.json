@@ -1,0 +1,63 @@
+{
+  "name": "AI voice agent for restaurant reservations",
+  "final_state": "Kll",
+  "metrics": {
+    "mrr": 0,
+    "payback_days": 999,
+    "margin": 0,
+    "churn_rate": 0,
+    "retention_rate": 0,
+    "total_days": 0
+  },
+  "log": [
+    {
+      "timestamp": "2026-02-03T15:08:37.972280",
+      "state": "Dsc",
+      "event": "START",
+      "message": "Initiating venture: AI voice agent for restaurant reservations",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:08:37.972334",
+      "state": "Dsc",
+      "event": "DISCOVER",
+      "message": "Starting research",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:08:48.803680",
+      "state": "Dsc",
+      "event": "DISCOVER_COMPLETE",
+      "message": "Score: 53.5",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:08:48.803742",
+      "state": "Dsc",
+      "event": "KILL",
+      "message": "Reason: low_validation_score",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    }
+  ],
+  "success": false
+}
