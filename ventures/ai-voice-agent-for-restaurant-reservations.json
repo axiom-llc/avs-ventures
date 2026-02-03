@@ -4,14 +4,14 @@
   "metrics": {
     "mrr": 0,
     "payback_days": 999,
-    "margin": 0,
-    "churn_rate": 0,
-    "retention_rate": 0,
-    "total_days": 0
+    "margin": 0.85,
+    "churn_rate": 0.05,
+    "retention_rate": 0.95,
+    "total_days": 14
   },
   "log": [
     {
-      "timestamp": "2026-02-03T15:08:37.972280",
+      "timestamp": "2026-02-03T15:33:24.794599",
       "state": "Dsc",
       "event": "START",
       "message": "Initiating venture: AI voice agent for restaurant reservations",
@@ -23,7 +23,7 @@
       }
     },
     {
-      "timestamp": "2026-02-03T15:08:37.972334",
+      "timestamp": "2026-02-03T15:33:24.794664",
       "state": "Dsc",
       "event": "DISCOVER",
       "message": "Starting research",
@@ -35,10 +35,10 @@
       }
     },
     {
-      "timestamp": "2026-02-03T15:08:48.803680",
+      "timestamp": "2026-02-03T15:33:36.691665",
       "state": "Dsc",
       "event": "DISCOVER_COMPLETE",
-      "message": "Score: 53.5",
+      "message": "Score: 58.5",
       "metrics": {
         "mrr": 0,
         "days": 0,
@@ -47,15 +47,63 @@
       }
     },
     {
-      "timestamp": "2026-02-03T15:08:48.803742",
-      "state": "Dsc",
-      "event": "KILL",
-      "message": "Reason: low_validation_score",
+      "timestamp": "2026-02-03T15:33:36.691772",
+      "state": "Val",
+      "event": "VALIDATE",
+      "message": "Scoring opportunity",
       "metrics": {
         "mrr": 0,
         "days": 0,
         "margin": 0,
         "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:33:36.691853",
+      "state": "Bld",
+      "event": "BUILD",
+      "message": "Building MVP",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:34:05.357237",
+      "state": "Lch",
+      "event": "BUILD_COMPLETE",
+      "message": "MVP ready",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:34:05.357308",
+      "state": "Lch",
+      "event": "LAUNCH",
+      "message": "Going live",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:34:05.357367",
+      "state": "Lch",
+      "event": "REVENUE_SIMULATED",
+      "message": "Day 14: MRR=$0.00, Churn=5.0%",
+      "metrics": {
+        "mrr": 0,
+        "days": 14,
+        "margin": 0.85,
+        "churn_rate": 0.05
       }
     }
   ],
