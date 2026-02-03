@@ -1,0 +1,111 @@
+{
+  "name": "Compliance tracker for medical device companies",
+  "final_state": "Kll",
+  "metrics": {
+    "mrr": 0,
+    "payback_days": 999,
+    "margin": 0.85,
+    "churn_rate": 0.05,
+    "retention_rate": 0.95,
+    "total_days": 14
+  },
+  "log": [
+    {
+      "timestamp": "2026-02-03T15:34:08.831672",
+      "state": "Dsc",
+      "event": "START",
+      "message": "Initiating venture: Compliance tracker for medical device companies",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:34:08.831735",
+      "state": "Dsc",
+      "event": "DISCOVER",
+      "message": "Starting research",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:34:18.571819",
+      "state": "Dsc",
+      "event": "DISCOVER_COMPLETE",
+      "message": "Score: 53.5",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:34:18.571955",
+      "state": "Val",
+      "event": "VALIDATE",
+      "message": "Scoring opportunity",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:34:18.572038",
+      "state": "Bld",
+      "event": "BUILD",
+      "message": "Building MVP",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:34:38.020733",
+      "state": "Lch",
+      "event": "BUILD_COMPLETE",
+      "message": "MVP ready",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:34:38.020804",
+      "state": "Lch",
+      "event": "LAUNCH",
+      "message": "Going live",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:34:38.020883",
+      "state": "Lch",
+      "event": "REVENUE_SIMULATED",
+      "message": "Day 14: MRR=$0.00, Churn=5.0%",
+      "metrics": {
+        "mrr": 0,
+        "days": 14,
+        "margin": 0.85,
+        "churn_rate": 0.05
+      }
+    }
+  ],
+  "success": false
+}
