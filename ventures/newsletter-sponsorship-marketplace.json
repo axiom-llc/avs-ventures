@@ -1,0 +1,135 @@
+{
+  "name": "Newsletter sponsorship marketplace",
+  "final_state": "Kll",
+  "metrics": {
+    "mrr": 2419.25,
+    "payback_days": 999,
+    "margin": 0.85,
+    "churn_rate": 0.05,
+    "retention_rate": 0.95,
+    "total_days": 30
+  },
+  "log": [
+    {
+      "timestamp": "2026-02-03T15:36:44.970864",
+      "state": "Dsc",
+      "event": "START",
+      "message": "Initiating venture: Newsletter sponsorship marketplace",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:36:44.970925",
+      "state": "Dsc",
+      "event": "DISCOVER",
+      "message": "Starting research",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:36:54.511028",
+      "state": "Dsc",
+      "event": "DISCOVER_COMPLETE",
+      "message": "Score: 63.0",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:36:54.511111",
+      "state": "Val",
+      "event": "VALIDATE",
+      "message": "Scoring opportunity",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:36:54.511173",
+      "state": "Bld",
+      "event": "BUILD",
+      "message": "Building MVP",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:37:16.935917",
+      "state": "Lch",
+      "event": "BUILD_COMPLETE",
+      "message": "MVP ready",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:37:16.935991",
+      "state": "Lch",
+      "event": "LAUNCH",
+      "message": "Going live",
+      "metrics": {
+        "mrr": 0,
+        "days": 0,
+        "margin": 0,
+        "churn_rate": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:37:16.936066",
+      "state": "Lch",
+      "event": "REVENUE_SIMULATED",
+      "message": "Day 14: MRR=$1195.24, Churn=5.0%",
+      "metrics": {
+        "mrr": 1195.24,
+        "days": 14,
+        "margin": 0.85,
+        "churn_rate": 0.05
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:37:16.936125",
+      "state": "Opt",
+      "event": "OPTIMIZE",
+      "message": "Running growth tests",
+      "metrics": {
+        "mrr": 1195.24,
+        "days": 14,
+        "margin": 0.85,
+        "churn_rate": 0.05
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:37:58.608420",
+      "state": "Opt",
+      "event": "REVENUE_SIMULATED",
+      "message": "Day 30: MRR=$2419.25, Churn=5.0%",
+      "metrics": {
+        "mrr": 2419.25,
+        "days": 30,
+        "margin": 0.85,
+        "churn_rate": 0.05
+      }
+    }
+  ],
+  "success": false
+}
